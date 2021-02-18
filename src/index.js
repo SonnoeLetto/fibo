@@ -30,7 +30,5 @@ function fibo () {
         return result;
     };
 }
-
-const f = fibo();
-const testValue = 10;
-throw Error (f(testValue));
+const testVal = 10;
+fibo()(testVal);
